@@ -21,5 +21,5 @@ py .\aq_spider.py -c 杭州 -s 20220501 -e 20220505 -p hour -l co,no2,o3
 |-c| 城市 |
 |-s| 开始时间 |
 |-e| 结束时间 |
-|-p| 周期，`day` 或 `hour`， `hour` 数据多比较慢 |
+|-p| 周期，`day` 或 `hour`， `hour` 数据多比较慢，默认为 `day` |
 |-l| 需要输出到excel的列，默认全部，即:`'aqi','pm2_5','pm10','co','no2','o3','so2','complexindex','rank','primary_pollutant','temp','humi','windlevel','winddirection','weather'` |
